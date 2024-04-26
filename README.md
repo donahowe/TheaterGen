@@ -36,16 +36,36 @@ We propose Theatergen, a tuning-free method for consistent multi-turn image gene
 
 To install requirements:
 
-```setup
+```
 pip install -r requirements.txt
 ```
 
 ### 🚀 Generate
 Generate with `CMIGBench` or replace with your own demo
 
-```setup
+```
 python generate.py --task story --sd_version '1.5' --dataset_path CMIGBench
 ```
+
+### 🧪 Evaluate
+Prepare the output in the following format
+
+    ├── output_dir
+    |   ├── dialogue 1
+    |      ├── turn1.png 
+    |      ├── turn2.png 
+    |      ├── turn3.png 
+    |      └── turn4.png 
+    |   ├── dialogue 2
+    |      ...
+
+Evalutate the generated results of `CMIGBench` 
+
+```
+python CMIGBench/eval/eval.py 
+python CMIGBench/eval/eval_extra.py 
+```
+
 ## 👀 Contact Us
 If you have any questions, please feel free to email us at howe4884@outlook.com.
 

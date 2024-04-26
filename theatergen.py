@@ -2,18 +2,20 @@ import os
 import torch
 import models
 import utils
+import pickle
+import numpy as np
+
+from PIL import Image
 from utils.detector import detect
-from models import pipelines, sam, model_dict
 from utils import parse, guidance, latents, vis
 from utils.latents import get_input_latents_lne
+from models import pipelines, sam, model_dict
 from prompt import (
     DEFAULT_SO_NEGATIVE_PROMPT,
     DEFAULT_OVERALL_NEGATIVE_PROMPT,
 )
 from easydict import EasyDict
-import pickle
-from PIL import Image
-import numpy as np
+
 
 # Hyperparams
 height = 512  # default height of Stable Diffusion
@@ -68,7 +70,7 @@ def generate_single_object_with_box(
 ):
     
     #debug
-    print("Generating on stage image of ,",word)
+    print(f"Generating on stage image of , {word}")
     bboxes, phrases, words = [box], [phrase], [word]
 
     if verbose:
