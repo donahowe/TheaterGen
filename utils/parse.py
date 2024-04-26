@@ -294,7 +294,7 @@ def show_boxes(gen_boxes, bg_prompt=None, neg_prompt=None, ind=None, show=False,
     if show:
         plt.show()
     else:
-        print("Saved boxes visualizations to", f"{img_dir}/boxes.png", f"ind: {ind}")
+        print("Saved boxes visualizations to", f"{img_dir}/boxes.png", f"ind: {ind}\n")
         if ind is not None:
             plt.savefig(f"{img_dir}/boxes_{ind}.png")
         plt.savefig(f"{img_dir}/boxes.png")
