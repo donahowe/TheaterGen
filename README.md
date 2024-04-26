@@ -20,7 +20,7 @@
 
 
 ## Introduction
-We propose Theatergen, a tuning-free method for multi-turn consistent image generation. The key idea is to utilize LLM for character management with `layout` and `id`. We further propose the `CMIGBench` for evaluating the consistency in multi-turn image generation.
+We propose Theatergen, a tuning-free method for consistent multi-turn image generation. The key idea is to utilize LLM for character management with `layout` and `id` and customize each `character` to avoid attention leakage. We further propose the `CMIGBench` for evaluating the consistency in multi-turn image generation.
 
 ## TODO
 - [ ] Deployment with GPT interface  
@@ -31,7 +31,8 @@ We propose Theatergen, a tuning-free method for multi-turn consistent image gene
 * **[2024.04.26]** We have released our code and benchmark
 
 
-## 🔧 Requirements
+## Setup
+### 🔧 Requirements
 
 To install requirements:
 
@@ -39,9 +40,16 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
-## 🧪 Generate
-Generate demo with CMIGBenchmark or replace with your own 
+### 🚀 Generate
+Generate with `CMIGBench` or replace with your own demo
 
 ```setup
 python generate.py --task story --sd_version '1.5' --dataset_path CMIGBench
 ```
+## 👀 Contact Us
+If you have any questions, please feel free to email us at howe4884@outlook.com.
+
+## 💡Acknowledgement
+Our work is based on [stable diffusion](https://github.com/Stability-AI/StableDiffusion), [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything), [T2I-Adapter](https://github.com/TencentARC/T2I-Adapter), and [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter). We appreciate their outstanding contributions.
+
+
