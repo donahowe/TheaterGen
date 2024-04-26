@@ -7,7 +7,7 @@
 
 <div align="center">
   
-## Theatergen: Character Management with LLM for Consistent Multi-turn Image
+## Theatergen: Character Management with LLM for Consistent Multi-turn Image Generation
 [📄[Paper](https://howe140.github.io/theatergen.io/)] &emsp; [🚩[Project Page](https://howe140.github.io/theatergen.io/)] <br>
 
 
