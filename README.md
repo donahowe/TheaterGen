@@ -6,13 +6,15 @@
 <!-- ## <div align="center"><b>ConsistentID</b></div> -->
 
 <div align="center">
-  
+
 ## Theatergen: Character Management with LLM for Consistent Multi-turn Image Generation
+
+![Teaser figure](scripts/more.png)
+
 [📄[Paper](https://arxiv.org/abs/2404.18919)] &emsp; [🚩[Project Page](https://howe140.github.io/theatergen.io/)] <br>
 
 
 </div>
-
 
 
 ## Model Architecture
