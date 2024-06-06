@@ -74,4 +74,15 @@ If you have any questions, please feel free to email us at howe4884@outlook.com.
 ## 💡Acknowledgement
 Our work is based on [stable diffusion](https://github.com/Stability-AI/StableDiffusion), [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything), [T2I-Adapter](https://github.com/TencentARC/T2I-Adapter), and [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter). We appreciate their outstanding contributions.
 
+## Citation
+If you found this code helpful, please consider citing:
+~~~
+@article{cheng2024theatergen,
+  title={TheaterGen: Character Management with LLM for Consistent Multi-turn Image Generation},
+  author={Cheng, Junhao and Yin, Baiqiao and Cai, Kaixin and Huang, Minbin and Li, Hanhui and He, Yuxin and Lu, Xi and Li, Yue and Li, Yifei and Cheng, Yuhao and others},
+  journal={arXiv preprint arXiv:2404.18919},
+  year={2024}
+}
+~~~
+
 
