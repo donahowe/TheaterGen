@@ -71,6 +71,7 @@ python CMIGBench/eval/eval_extra.py
 ## 👀 Contact Us
 If you have any questions, please feel free to email us at howe4884@outlook.com.
 
+🌟🌟🌟(I am an undergraduate student actively seeking opportunities for a Ph.D. program in 25 fall.)🌟🌟🌟
 ## 💡Acknowledgement
 Our work is based on [stable diffusion](https://github.com/Stability-AI/StableDiffusion), [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything), [T2I-Adapter](https://github.com/TencentARC/T2I-Adapter), and [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter). We appreciate their outstanding contributions.
 
